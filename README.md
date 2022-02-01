@@ -16,5 +16,5 @@ Simply run "main.py" and it will prompt you to enter a filepath to whatever DICO
 
 
 
-#References
+# References
 [1] Joseph Paul Cohen and Paul Morrison and Lan Dao. COVID-19 image data collection, arXiv, 2020. https://github.com/ieee8023/covid-chestxray-dataset
