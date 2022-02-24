@@ -12,7 +12,7 @@ This is a simple program that, through a Convolutional Neural Network, outputs w
 
 # Instructions
 See Docker Repository: https://hub.docker.com/repository/docker/wjbradfo/covid19fromxray
-Run as a docker container and enter interactive shell. Type "python3 main.py" and you be prompted to enter the path to your DICOM file(s).
+Run as a docker container you be prompted to enter the path to your DICOM file(s).
 
 
 
