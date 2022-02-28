@@ -19,11 +19,15 @@ git init
 git clone https://github.com/wbradford2001/Covid-19-detection-from-chest-xray
 cd Covid-19-detection-from-chest-xray
 ```
-- Step 3: activate environment from "environment" folder
+- Step 3: build environment from "env.yml"
 ```console
-conda activate [path to directory/Covid-19-detection-from-chest-xray/environment]
+conda env build --file env.yml --name environment_from_yml 
 ```
-- Step 4: If you want to see/manipulate how the model was created, open "MODEL_CREATOR.ipynb". If you just want the end product of being able to detect COVID-19, run "main.py"
+- Step 4: activate new environment
+```console
+conda activate environment_from_yml
+```
+- Step 5: If you want to see/manipulate how the model was created, open "MODEL_CREATOR.ipynb". If you just want the end product of being able to detect COVID-19, run "main.py"
 ```console
 python3 main.py
 ```
