@@ -1,15 +1,15 @@
-import tensorflow as tf
-import pickle
-
-import numpy as np
-import matplotlib.pyplot as plt
-from tensorflow.keras.layers import Input, Conv2D, Dense, Flatten, Dropout, MaxPool2D
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.models import Model
-from glob import glob
-from PIL import Image
-from keras.preprocessing import image
-from keras.preprocessing.image import ImageDataGenerator
+##import tensorflow as tf
+##import pickle
+##
+##import numpy as np
+##import matplotlib.pyplot as plt
+##from tensorflow.keras.layers import Input, Conv2D, Dense, Flatten, Dropout, MaxPool2D
+##from tensorflow.keras.utils import to_categorical
+##from tensorflow.keras.models import Model
+##from glob import glob
+##from PIL import Image
+##from keras.preprocessing import image
+##from keras.preprocessing.image import ImageDataGenerator
 import pickle
 
 
@@ -30,6 +30,8 @@ import skimage
 ##
 ###compiling the CNN model
 ##model.load_weights('./weights')
+import tensorflow
+from tensorflow import keras
 model = pickle.load(open('finalized_model.sav', 'rb'))
 
 
