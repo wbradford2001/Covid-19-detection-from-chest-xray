@@ -39,11 +39,11 @@ And you will be prompted to enter a file path containing your DICOM files.
 - Step 3: Pull down the Image from repository
   Docker Repository: https://hub.docker.com/repository/docker/wjbradfo/covid19fromxray
   ```console
-  docker pull wjbradfo/covid19fromxray
+  docker pull wjbradfo/covid19fromxray:1.0
   ```
 - Step 4: Run as a container and enter interactive shell(-it)
   ```console
-  docker run -it wjbradfo/covid19fromxray
+  docker run -it wjbradfo/covid19fromxray:1.0
   ````
   And you will be prompted to enter a file path containing your DICOM files.
 
