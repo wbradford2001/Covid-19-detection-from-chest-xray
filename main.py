@@ -3,6 +3,7 @@ import predictimage
 import os
 from glob import glob
 
+
 while True:
     print("\nEnter File Path To Directory or DICOM file:\n")
     filepath = input()
