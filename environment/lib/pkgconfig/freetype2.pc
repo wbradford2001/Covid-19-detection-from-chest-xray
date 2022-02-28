@@ -1,0 +1,14 @@
+prefix=/Users/sipebradford/Downloads/Covid-19-detection-from-chest-xray/environment
+exec_prefix=/Users/sipebradford/Downloads/Covid-19-detection-from-chest-xray/environment
+libdir=/Users/sipebradford/Downloads/Covid-19-detection-from-chest-xray/environment/lib
+includedir=/Users/sipebradford/Downloads/Covid-19-detection-from-chest-xray/environment/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/sipebradford/Downloads/Covid-19-detection-from-chest-xray/environment/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

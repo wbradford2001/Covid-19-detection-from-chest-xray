@@ -1,0 +1,11 @@
+prefix=/Users/sipebradford/Downloads/Covid-19-detection-from-chest-xray/environment
+exec_prefix=/Users/sipebradford/Downloads/Covid-19-detection-from-chest-xray/environment
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlicommon
+URL: https://github.com/google/brotli
+Description: Brotli common dictionary library
+Version: 1.0.9
+Libs: -L${libdir} -R${libdir} -lbrotlicommon
+Cflags: -I${includedir}
