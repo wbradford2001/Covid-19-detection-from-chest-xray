@@ -10,6 +10,11 @@ This is a simple program that, through a Convolutional Neural Network, outputs w
 # Description
 "MODEL_CREATOR.ipynb" is the jupyter notebook used to actually create the model. The model itself is the "finalized_model.sav" and is a pickled object. "PredictImage.py" is the script where it defines the function that takes user input and outputs the result. "Main.py" is what puts it all together and runs "predict_image" from "PredictImage.py". 
 
+
+# About the Model
+This is a model build with Keras from Tkinter with 7 Layers. See the layout architecture below.
+<img width="563" alt="Screen Shot 2022-03-04 at 8 57 35 PM" src="https://user-images.githubusercontent.com/14623991/156869910-842f84f6-012c-4363-9952-75b478726a48.png">
+
 # Instructions
 ## Method 1: Run using Conda Environment
 - Step 1: Make sure git and anaconda(or mini conda) is installed on your machine
