@@ -21,7 +21,7 @@ cd Covid-19-detection-from-chest-xray
 ```
 - Step 3: build environment from "env.yml"
 ```console
-conda env build --file env.yml --name environment_from_yml 
+conda env create --file env.yml --name environment_from_yml 
 ```
 - Step 4: activate new environment
 ```console
